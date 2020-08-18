@@ -2,14 +2,14 @@ import React from 'react'
 import styled, { createGlobalStyle } from 'styled-components'
 
 
-const piece2L = "https://media.giphy.com/media/PNzZUSeC9oixG/giphy.gif"
-const piece3L = "https://media.giphy.com/media/zFegkS85TBi8w/giphy.gif"
-const piece4L = "https://media.giphy.com/media/O3lAnjph48xIQ/giphy.gif"
-const piece6L = "https://media.giphy.com/media/olSR1SBiMVG8M/giphy.gif"
-const piece7L = "https://media.giphy.com/media/fU4yzmITANeow/giphy.gif"
-const piece8L = "https://media.giphy.com/media/R4CqQk8RRKVZm/giphy.gif"
-const piece9L = "https://media.giphy.com/media/3o7bu7or07fA0H09nq/giphy.gif"
-const piece10L = "https://media.giphy.com/media/l378jVDa0FaQTDmc8/giphy.gif"
+// const piece2L = "https://media.giphy.com/media/PNzZUSeC9oixG/giphy.gif"
+// const piece3L = "https://media.giphy.com/media/zFegkS85TBi8w/giphy.gif"
+// const piece4L = "https://media.giphy.com/media/O3lAnjph48xIQ/giphy.gif"
+// const piece6L = "https://media.giphy.com/media/olSR1SBiMVG8M/giphy.gif"
+// const piece7L = "https://media.giphy.com/media/fU4yzmITANeow/giphy.gif"
+// const piece8L = "https://media.giphy.com/media/R4CqQk8RRKVZm/giphy.gif"
+// const piece9L = "https://media.giphy.com/media/3o7bu7or07fA0H09nq/giphy.gif"
+// const piece10L = "https://media.giphy.com/media/l378jVDa0FaQTDmc8/giphy.gif"
 
 //STYLES
 const GlobalStyle = createGlobalStyle`
