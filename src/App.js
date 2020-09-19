@@ -2,8 +2,6 @@ import React from 'react'
 import styled, { createGlobalStyle } from 'styled-components'
 
 
-// const piece2L = "https://media.giphy.com/media/PNzZUSeC9oixG/giphy.gif"
-// const piece3L = "https://media.giphy.com/media/zFegkS85TBi8w/giphy.gif"
 // const piece4L = "https://media.giphy.com/media/O3lAnjph48xIQ/giphy.gif"
 // const piece6L = "https://media.giphy.com/media/olSR1SBiMVG8M/giphy.gif"
 // const piece7L = "https://media.giphy.com/media/fU4yzmITANeow/giphy.gif"
@@ -53,6 +51,19 @@ const Piece02 = styled.div`
   background-position: center;
   clip-path: polygon(42.8571429% 0, 100% 20%, 57.1428571% 80%, 85.7142857% 100%, 14.2857143% 90%, 42.8571429% 60%, 28.5714286% 60%, 28.5714286% 40%, 0% 60%, 28.5714286% 20%, 0% 30%, 28.5714286% 10%, 71.4285714% 30%);
 `
+const Piece03 = styled.div`
+  grid-column-start: 1;
+  grid-column-end: 17;
+  grid-row-start: 25;
+  grid-row-end: 37;
+  width: 100%;
+  height: 100%;
+  background: url(https://media.giphy.com/media/zFegkS85TBi8w/giphy.gif);
+  background-size: cover;
+  background-position: right;
+  clip-path: polygon(25% 0%, 75% 0%, 50% 33.3333333%, 100% 66.6666667%, 75% 66.6666667%, 25% 33.3333333%, 50% 100%, 0% 66.6666667%);
+`
+
 const Piece05 = styled.div`
   grid-column-start: 9;
   grid-column-end: 42;
@@ -76,6 +87,7 @@ function App() {
       <Container>
         <Piece01/>
         <Piece02/>
+        <Piece03/>
 
         <Piece05/>
 
