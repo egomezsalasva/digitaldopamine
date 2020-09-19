@@ -41,6 +41,18 @@ const Piece01 = styled.div`
   background-position: center;
   clip-path: polygon(0 0, 50% 0, 100% 100%, 50% 33.3333333%, 50% 66.6666666667%, 0 100%);
 `
+const Piece02 = styled.div`
+  grid-column-start: 2;
+  grid-column-end: 9;
+  grid-row-start: 12;
+  grid-row-end: 22;
+  width: 100%;
+  height: 100%;
+  background: url(https://media.giphy.com/media/PNzZUSeC9oixG/giphy.gif);
+  background-size: cover;
+  background-position: center;
+  clip-path: polygon(42.8571429% 0, 100% 20%, 57.1428571% 80%, 85.7142857% 100%, 14.2857143% 90%, 42.8571429% 60%, 28.5714286% 60%, 28.5714286% 40%, 0% 60%, 28.5714286% 20%, 0% 30%, 28.5714286% 10%, 71.4285714% 30%);
+`
 const Piece05 = styled.div`
   grid-column-start: 9;
   grid-column-end: 42;
@@ -63,6 +75,7 @@ function App() {
 
       <Container>
         <Piece01/>
+        <Piece02/>
 
         <Piece05/>
 
